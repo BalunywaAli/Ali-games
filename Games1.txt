@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamePay | Play Premium Games</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="index.html">Game<span>Pay</span></a>
+            </div>
+            <button class="navbar-toggler" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="navbar-nav">
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#games">Games</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#" class="btn btn-primary" id="login-btn">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Unlock Premium Gaming Experience</h1>
+                <p>Pay once, play unlimited for your selected duration. Access top-tier games with simple payment via VISA or Mobile Money.</p>
+                <div class="hero-buttons">
+                    <a href="#pricing" class="btn btn-primary">Get Started</a>
+                    <a href="#features" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/600x400" alt="Gameplay screenshot" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Choose GamePay?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3>Premium Games</h3>
+                    <p>Access to exclusive, high-quality games not available elsewhere.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Flexible Duration</h3>
+                    <p>Choose from 1 hour, 1 day, 1 week, or 1 month of unlimited play.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Money</h3>
+                    <p>Easy payments via Mobile Money on +256707022402 or VISA cards.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure Payments</h3>
+                    <p>Your payment information is always protected and encrypted.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="games" class="games">
+        <div class="container">
+            <h2 class="section-title">Popular Games</h2>
+            <div class="games-grid">
+                <div class="game-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Game 1" class="img-fluid">
+                    <div class="game-info">
+                        <h3>Epic Adventure</h3>
+                        <p>Action-packed RPG with stunning graphics.</p>
+                        <div class="game-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Game 2" class="img-fluid">
+                    <div class="game-info">
+                        <h3>Racing Legends</h3>
+                        <p>High-speed racing with realistic physics.</p>
+                        <div class="game-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.0</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Game 3" class="img-fluid">
+                    <div class="game-info">
+                        <h3>Puzzle Master</h3>
+                        <p>Challenge your brain with mind-bending puzzles.</p>
+                        <div class="game-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>5.0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Simple Pricing</h2>
+            <p class="section-subtitle">Choose your preferred play duration</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>1 Hour</h3>
+                        <div class="price">$1.99</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Full game access</li>
+                        <li><i class="fas fa-check"></i> No ads</li>
+                        <li><i class="fas fa-check"></i> Premium features</li>
+                    </ul>
+                    <button class="btn btn-primary btn-block">Buy Now</button>
+                </div>
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>1 Day</h3>
+                        <div class="price">$4.99</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Full game access</li>
+                        <li><i class="fas fa-check"></i> No ads</li>
+                        <li><i class="fas fa-check"></i> Premium features</li>
+                        <li><i class="fas fa-check"></i> Exclusive content</li>
+                    </ul>
+                    <button class="btn btn-primary btn-block">Buy Now</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>1 Week</h3>
+                        <div class="price">$9.99</div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Full game access</li>
+                        <li><i class="fas fa-check"></i> No ads</li>
+                        <li><i class="fas fa-check"></i> Premium features</li>
+                        <li><i class="fas fa-check"></i> Exclusive content</li>
+                        <li><i class="fas fa-check"></i> Early access to new games</li>
+                    </ul>
+                    <button class="btn btn-primary btn-block">Buy Now</button>
+                </div>
+            </div>
+            <div class="payment-methods">
+                <p>We accept:</p>
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <p>Mobile Money: +256707022402</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Have Questions?</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> +256707022402</p>
+                    <p><i class="fas fa-envelope"></i> support@gamepay.com</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>GamePay</h3>
+                    <p>Premium gaming experience with flexible payment options including VISA and Mobile Money.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#games">Games</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-legal">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 GamePay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Payment Modal -->
+    <div class="modal" id="paymentModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Complete Your Purchase</h2>
+            <form id="paymentForm">
+                <div class="form-group">
+                    <label for="gameDuration">Game Duration</label>
+                    <select id="gameDuration" required>
+                        <option value="">Select duration</option>
+                        <option value="1h">1 Hour - $1.99</option>
+                        <option value="1d">1 Day - $4.99</option>
+                        <option value="1w">1 Week - $9.99</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="paymentMethod">Payment Method</label>
+                    <select id="paymentMethod" required>
+                        <option value="">Select method</option>
+                        <option value="visa">VISA Card</option>
+                        <option value="mobile">Mobile Money</option>
+                    </select>
+                </div>
+                <div id="visaFields" class="payment-fields">
+                    <div class="form-group">
+                        <label for="cardNumber">Card Number</label>
+                        <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="expiryDate">Expiry Date</label>
+                            <input type="text" id="expiryDate" placeholder="MM/YY">
+                        </div>
+                        <div class="form-group">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" placeholder="123">
+                        </div>
+                    </div>
+                </div>
+                <div id="mobileFields" class="payment-fields" style="display: none;">
+                    <div class="form-group">
+                        <label for="mobileNumber">Mobile Number</label>
+                        <input type="text" id="mobileNumber" placeholder="+256707022402">
+                    </div>
+                    <p>You will receive a payment request on your mobile device.</p>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Pay Now</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Login to Your Account</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" placeholder="Your password" required>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>
+            </form>
+            <div class="auth-links">
+                <a href="#">Forgot password?</a>
+                <a href="#">Create new account</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> and I know
